@@ -1,0 +1,251 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.nav-bar{
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-icon i{
+    margin-left: 51px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+}
+.add-second{
+    margin-left:20px ;
+}
+.add-icon {
+    display: flex;
+    align-items: center;  
+    padding-left: 20px;
+   
+}
+
+.nav-register{
+    display: flex;
+    margin-left: 900px;
+    justify-content: space-evenly;
+}
+.nav-login{
+    display: flex;
+    margin-left: 20px;
+}
+.nav-help{
+    display: flex;
+    margin-left: 20px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f32;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+     display: inline;
+     margin-left: 10px;
+    
+}
+.panel-ops{
+        width: 80%;
+        font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.main-section{
+    background-image: url("image-first.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    
+}
+.main-msg{
+    background-color: white;
+    color:dark black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.course-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+
+    margin-top: 4px;
+}
+.box{
+   
+    height: 350px;
+    width: 21%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 280px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;   
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+}
+
+
+
+section .topic a {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+  
+.about .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.about .boxes .box {
+    margin: 10px 20px;
+    max-width: calc(100% / 3 - 50px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+}
+  
+/* Contact Page  */
+  
+.contact {
+    background-color: #808080;
+    padding: 20px;
+}
+  
+.contact .content {
+    margin: 0 auto;
+    padding: 30px 0;
+}
+  
+.content .title {
+    width: 80%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+  
+.title {
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+  
+.contactMenu {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.input2 {
+    margin-top: 10;
+}
+  
+.label1 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+  
+.contactMenu .input1 input {
+    border-radius: 13px;
+    padding: 6px;
+}
+  
+.input2 input {
+    border-color: rgb(252, 244, 244);
+    width: 400px;
+}
+  
+.button {
+    margin-top: 12px;
+    margin-left: 5px;
+}
+  
+.button button {
+    width: 162px;
+    height: 35px;
+    border-radius: 12px;
+    border-color: transparent;
+}
+  
+.button button:hover {
+    background-color: #8cc099;
+}
+  
+button {
+    width: 162px;
+    height: 35px;
+    border-radius: 12px;
+    border-color: transparent;
+}
+  
+button:hover {
+    background-color: #8cc099;
+}
+  
+.rightside1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+  
+.title1 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+  
+.content1 {
+    width: 450px;
+    margin-top: 2px;
+    color: palegreen;
+}
+
+
